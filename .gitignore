@@ -12,3 +12,5 @@ vbox/*
 *.box
 .scripts/*
 .vscode/*
+packer*
+packer_cache*

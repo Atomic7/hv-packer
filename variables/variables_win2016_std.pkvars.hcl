@@ -1,7 +1,7 @@
 iso_url=".\\iso\\SW_DVD9_Win_Server_STD_CORE_2016_64Bit_English_-4_DC_STD_MLF_X21-70526.ISO"
 iso_checksum_type="sha256"
 iso_checksum="47919ce8b4993f531ca1fa3f85941f4a72b47ebaa4d3a321fecf83ca9d17e6b8"
-switch_name="vSwitch"
+switch_name="NestedSwitch"
 vlan_id=""
 vm_name="packer-windows2016-g2"
 disk_size="80000"

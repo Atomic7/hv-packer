@@ -3,13 +3,15 @@
 $template_file="./templates/hv_win2019_g2_vagrant.pkr.hcl"
 $var_file="./variables/variables_win2019_dc.pkvars.hcl"
 $machine="Windows Server 2019 Datacenter Gen-2 Vagrant"
-$packer_log=0
+$packer_log=1
+$packer_log_path="./logs/hv_win2019_g2_vagrant.log"
 
 if ((Test-Path -Path "$template_file") -and (Test-Path -Path "$var_file")) {
   Write-Output "Template and var file found"
   Write-Output "Building: $machine"
   try {
     $env:PACKER_LOG=$packer_log
+    $env:PACKER_LOG_PATH=$packer_log_path
     packer validate -var-file="$var_file" "$template_file"
   }
   catch {

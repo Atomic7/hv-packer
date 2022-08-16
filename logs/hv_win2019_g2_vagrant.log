@@ -1,0 +1,1216 @@
+2022/08/12 11:17:40 [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:40 [TRACE] discovering plugins in C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps
+2022/08/12 11:17:40 [TRACE] discovering plugins in C:\Users\chladmin\AppData\Roaming\packer.d\plugins
+2022/08/12 11:17:40 [TRACE] discovering plugins in .
+2022/08/12 11:17:40 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:40 [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:40 [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:40 [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+e: cannot determine if process is in background: Process background check error: not implemented yet
+2022/08/12 11:17:40 [TRACE] validateValue: not active for iso_checksum, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for switch_name, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for upgrade_timeout, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for vlan_id, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for vm_name, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for iso_checksum_type, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for secondary_iso_image, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for disk_size, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for output_vagrant, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for vagrantfile_template, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for iso_url, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for output_directory, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for sysprep_unattended, so skipping
+2022/08/12 11:17:40 [TRACE] validateValue: not active for vagrant_sysprep_unattended, so skipping
+2022/08/12 11:17:40 [TRACE] Starting internal plugin packer-builder-hyperv-iso
+2022/08/12 11:17:40 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-builder-hyperv-iso"}
+2022/08/12 11:17:41 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:41 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:41 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:41 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:41 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:41 packer.exe plugin: args: []string{"packer-builder-hyperv-iso"}
+2022/08/12 11:17:41 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:41 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:41 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:41 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:41 packer.exe plugin: DiskBlockSize: 32
+2022/08/12 11:17:41 packer.exe plugin: RamSize: 4096
+2022/08/12 11:17:42 packer.exe plugin: DiskSize: 80000
+2022/08/12 11:17:42 [TRACE] Starting internal plugin packer-provisioner-powershell
+2022/08/12 11:17:42 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2022/08/12 11:17:42 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:42 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2022/08/12 11:17:42 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:42 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:42 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:42 [TRACE] Starting internal plugin packer-provisioner-windows-restart
+2022/08/12 11:17:42 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-windows-restart"}
+2022/08/12 11:17:42 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:42 packer.exe plugin: args: []string{"packer-provisioner-windows-restart"}
+2022/08/12 11:17:42 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:42 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:42 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:42 [TRACE] Starting internal plugin packer-provisioner-powershell
+2022/08/12 11:17:42 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2022/08/12 11:17:42 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:42 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:42 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:42 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2022/08/12 11:17:42 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:42 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:42 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:42 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:42 [TRACE] Starting internal plugin packer-provisioner-powershell
+2022/08/12 11:17:42 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2022/08/12 11:17:42 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:43 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2022/08/12 11:17:43 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:43 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:43 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:43 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:43 [TRACE] Starting internal plugin packer-provisioner-powershell
+2022/08/12 11:17:43 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2022/08/12 11:17:43 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:43 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2022/08/12 11:17:43 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:43 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:43 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:43 [TRACE] Starting internal plugin packer-provisioner-file
+2022/08/12 11:17:43 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-file"}
+2022/08/12 11:17:43 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:43 packer.exe plugin: args: []string{"packer-provisioner-file"}
+2022/08/12 11:17:43 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:43 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:43 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:43 [TRACE] Starting internal plugin packer-provisioner-powershell
+2022/08/12 11:17:43 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2022/08/12 11:17:43 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:43 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2022/08/12 11:17:43 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:43 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:43 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:43 [TRACE] Starting internal plugin packer-post-processor-vagrant
+2022/08/12 11:17:43 Starting plugin: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe []string{"C:\\Users\\chladmin\\AppData\\Local\\Microsoft\\WindowsApps\\packer.exe", "plugin", "packer-post-processor-vagrant"}
+2022/08/12 11:17:43 Waiting for RPC address for: C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Packer version: 1.8.3 [go1.17.11 windows amd64]
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/08/12 11:17:43 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\chladmin\AppData\Roaming\packer.config
+2022/08/12 11:17:43 packer.exe plugin: [INFO] Setting cache directory: C:\Users\chladmin\projects\hv-packer\packer_cache
+2022/08/12 11:17:43 packer.exe plugin: args: []string{"packer-post-processor-vagrant"}
+2022/08/12 11:17:43 packer.exe plugin: Plugin port range: [10000,25000]
+2022/08/12 11:17:43 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Waiting for connection...
+2022/08/12 11:17:43 Received tcp RPC address for C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: addr is 127.0.0.1:10000
+2022/08/12 11:17:43 packer.exe plugin: Serving a plugin connection...
+2022/08/12 11:17:43 ui: Warning: A shutdown_command was not specified. Without a shutdown command, Packer
+will forcibly halt the virtual machine, which may result in data loss.
+
+  on ./templates/hv_win2019_g2_vagrant.pkr.hcl line 72:
+  (source code not available)
+
+2022/08/12 11:17:43 ui: hyperv-iso.vm: output will be in this color.
+2022/08/12 11:17:43 ui: 
+2022/08/12 11:17:43 Build debug mode: false
+2022/08/12 11:17:43 Force build: true
+2022/08/12 11:17:43 On error: 
+2022/08/12 11:17:43 Waiting on builds to complete...
+2022/08/12 11:17:43 Starting build run: hyperv-iso.vm
+2022/08/12 11:17:43 Running builder: 
+2022/08/12 11:17:43 [INFO] (telemetry) Starting builder hyperv-iso.vm
+2022/08/12 11:17:43 packer.exe plugin: Enter method: verifyPSVersion
+2022/08/12 11:17:43 packer.exe plugin: $host.version.Major output: 5
+2022/08/12 11:17:43 packer.exe plugin: Enter method: verifyPSHypervModule
+2022/08/12 11:17:44 packer.exe plugin: Enter method: verifyHypervPermissions
+2022/08/12 11:17:44 ui: ==> hyperv-iso.vm: Creating build directory...
+2022/08/12 11:17:44 packer.exe plugin: Created build directory: .\hyperv2705687157
+2022/08/12 11:17:44 ui: ==> hyperv-iso.vm: Retrieving ISO
+2022/08/12 11:17:44 ui: ==> hyperv-iso.vm: Trying ./iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO
+2022/08/12 11:17:44 packer.exe plugin: Acquiring lock for: ./iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO?checksum=sha256%3Ad894b01db8a856bfbcf9e18d9202a6e98c1d4bba147dc7be9763f28ca68aefdb (C:\Users\chladmin\projects\hv-packer\packer_cache\338fa43b00f35c83fdd4efcb6afec5d001f133ae.iso.lock)
+2022/08/12 11:17:44 ui: ==> hyperv-iso.vm: Trying ./iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO?checksum=sha256%3Ad894b01db8a856bfbcf9e18d9202a6e98c1d4bba147dc7be9763f28ca68aefdb
+2022/08/12 11:18:11 ui: ==> hyperv-iso.vm: ./iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO?checksum=sha256%3Ad894b01db8a856bfbcf9e18d9202a6e98c1d4bba147dc7be9763f28ca68aefdb => C:/Users/chladmin/projects/hv-packer/iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO
+2022/08/12 11:18:11 packer.exe plugin: Leaving retrieve loop for ISO
+2022/08/12 11:18:11 packer.exe plugin: No floppy files specified. Floppy disk will not be made.
+2022/08/12 11:18:11 ui: ==> hyperv-iso.vm: Creating switch 'NestedSwitch' if required...
+2022/08/12 11:18:11 ui: ==> hyperv-iso.vm:     switch 'NestedSwitch' already exists. Will not delete on cleanup...
+2022/08/12 11:18:11 ui: ==> hyperv-iso.vm: Creating virtual machine...
+2022/08/12 11:18:12 packer.exe plugin: No existing virtual harddrive, not attaching.
+2022/08/12 11:18:17 ui: ==> hyperv-iso.vm: Enabling Integration Service...
+2022/08/12 11:18:19 ui: ==> hyperv-iso.vm: Setting boot drive to os dvd drive C:/Users/chladmin/projects/hv-packer/iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO ...
+2022/08/12 11:18:20 ui: ==> hyperv-iso.vm: Mounting os dvd drive C:/Users/chladmin/projects/hv-packer/iso/SW_DVD9_Win_Server_STD_CORE_2019_1809.17_64Bit_English_DC_STD_MLF_X22-69933.ISO ...
+2022/08/12 11:18:21 ui: ==> hyperv-iso.vm: Skipping mounting Integration Services Setup Disk...
+2022/08/12 11:18:21 packer.exe plugin: No CD files specified. CD disk will not be made.
+2022/08/12 11:18:21 ui: ==> hyperv-iso.vm: Mounting secondary DVD images...
+2022/08/12 11:18:22 ui: ==> hyperv-iso.vm: Mounting secondary dvd drive ./extra/files/gen2-2019/std/secondary.iso ...
+2022/08/12 11:18:23 packer.exe plugin: ISO ./extra/files/gen2-2019/std/secondary.iso mounted on DVD controller 0, location 2
+2022/08/12 11:18:23 ui: ==> hyperv-iso.vm: Configuring vlan...
+2022/08/12 11:18:23 ui: ==> hyperv-iso.vm: Determine Host IP for HyperV machine...
+2022/08/12 11:18:26 ui: ==> hyperv-iso.vm: Host IP for the HyperV machine: 10.0.2.1
+2022/08/12 11:18:26 ui: ==> hyperv-iso.vm: Attempting to connect with vmconnect...
+2022/08/12 11:18:26 ui: ==> hyperv-iso.vm: Starting the virtual machine...
+2022/08/12 11:18:28 ui: ==> hyperv-iso.vm: Waiting 1s for boot...
+2022/08/12 11:18:29 ui: ==> hyperv-iso.vm: Typing the boot command...
+2022/08/12 11:18:29 packer.exe plugin: Sending char 'a', code '1e9e', shift false
+2022/08/12 11:18:29 packer.exe plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2022/08/12 11:18:31 packer.exe plugin: [INFO] Waiting 1s
+2022/08/12 11:18:32 packer.exe plugin: Sending char 'a', code '1e9e', shift false
+2022/08/12 11:18:32 packer.exe plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2022/08/12 11:18:32 packer.exe plugin: [INFO] Waiting 1s
+2022/08/12 11:18:33 packer.exe plugin: Sending char 'a', code '1e9e', shift false
+2022/08/12 11:18:33 packer.exe plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2022/08/12 11:18:34 packer.exe plugin: [INFO] Waiting 1s
+2022/08/12 11:18:35 packer.exe plugin: Sending char 'a', code '1e9e', shift false
+2022/08/12 11:18:35 packer.exe plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2022/08/12 11:18:38 ui: ==> hyperv-iso.vm: Waiting for WinRM to become available...
+2022/08/12 11:18:38 packer.exe plugin: [DEBUG] Unable to get address during connection step: No ip address.
+2022/08/12 11:18:38 packer.exe plugin: Waiting for WinRM, up to timeout: 8h0m0s
+2022/08/12 11:18:41 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:18:48 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:18:55 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:01 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:08 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:15 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:22 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:29 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:36 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:43 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:19:52 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:00 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:07 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:15 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:22 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:31 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:38 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:47 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:20:54 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:02 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:10 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:17 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:25 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:32 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:39 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:47 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:21:55 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:03 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:12 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:19 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:27 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:34 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:44 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:51 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:22:58 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:06 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:13 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:20 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:27 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:34 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:41 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:48 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:23:55 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:02 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:09 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:16 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:22 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:29 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:37 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:44 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:24:52 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:24:52 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:24:52 packer.exe plugin: [ERROR] connection error: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:24:52 packer.exe plugin: [ERROR] WinRM connection err: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:24:59 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:24:59 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:24:59 packer.exe plugin: [ERROR] connection error: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:24:59 packer.exe plugin: [ERROR] WinRM connection err: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:25:08 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:25:08 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:25:08 packer.exe plugin: [ERROR] connection error: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:25:08 packer.exe plugin: [ERROR] WinRM connection err: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:25:15 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:25:15 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:25:15 packer.exe plugin: [ERROR] connection error: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:25:15 packer.exe plugin: [ERROR] WinRM connection err: impossible to create http request parse "http://The following Msvm_KvpExchangeDataItem.Name keys are deprecated: NetworkAddressIPv4, NetworkAddressIPv6, RDPAddressIPv4, and RDPAddressIPv6. Please configure guest IP addresses using Msvm_GuestNetworkAdapterConfiguration.:5985/wsman": invalid character " " in host name
+2022/08/12 11:25:22 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:25:29 packer.exe plugin: [DEBUG] Error getting WinRM host: No ip address.
+2022/08/12 11:25:38 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:25:38 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:25:38 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:25:38 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:25:46 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:25:46 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:25:46 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:25:46 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:25:53 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:25:53 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:25:53 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:25:53 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:01 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:01 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:01 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:01 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:08 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:08 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:08 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:08 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:17 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:17 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:17 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:17 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:25 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:25 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:25 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:25 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:34 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:34 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:34 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:34 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:43 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:43 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:43 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:43 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:51 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:51 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:51 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:51 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:26:58 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:26:58 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:26:58 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:26:58 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:27:06 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:27:06 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:27:06 packer.exe plugin: [ERROR] connection error: http response error: 401 - invalid content type
+2022/08/12 11:27:06 packer.exe plugin: [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2022/08/12 11:27:13 packer.exe plugin: [INFO] Attempting WinRM connection...
+2022/08/12 11:27:13 packer.exe plugin: [DEBUG] connecting to remote shell using WinRM
+2022/08/12 11:27:21 packer.exe plugin: Checking that WinRM is connected with: 'powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGkAZgAgACgAVABlAHMAdAAtAFAAYQB0AGgAIAB2AGEAcgBpAGEAYgBsAGUAOgBnAGwAbwBiAGEAbAA6AFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlACkAewAkAFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlAD0AJwBTAGkAbABlAG4AdABsAHkAQwBvAG4AdABpAG4AdQBlACcAfQA7ACAAZQBjAGgAbwAgACIAVwBpAG4AUgBNACAAYwBvAG4AbgBlAGMAdABlAGQALgAiAA=='
+2022/08/12 11:27:21 packer.exe plugin: [INFO] starting remote command: powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGkAZgAgACgAVABlAHMAdAAtAFAAYQB0AGgAIAB2AGEAcgBpAGEAYgBsAGUAOgBnAGwAbwBiAGEAbAA6AFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlACkAewAkAFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlAD0AJwBTAGkAbABlAG4AdABsAHkAQwBvAG4AdABpAG4AdQBlACcAfQA7ACAAZQBjAGgAbwAgACIAVwBpAG4AUgBNACAAYwBvAG4AbgBlAGMAdABlAGQALgAiAA==
+2022/08/12 11:27:26 packer.exe plugin: [INFO] command 'powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGkAZgAgACgAVABlAHMAdAAtAFAAYQB0AGgAIAB2AGEAcgBpAGEAYgBsAGUAOgBnAGwAbwBiAGEAbAA6AFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlACkAewAkAFAAcgBvAGcAcgBlAHMAcwBQAHIAZQBmAGUAcgBlAG4AYwBlAD0AJwBTAGkAbABlAG4AdABsAHkAQwBvAG4AdABpAG4AdQBlACcAfQA7ACAAZQBjAGgAbwAgACIAVwBpAG4AUgBNACAAYwBvAG4AbgBlAGMAdABlAGQALgAiAA==' exited with code: 0
+2022/08/12 11:27:26 ui:     hyperv-iso.vm: WinRM connected.
+2022/08/12 11:27:26 packer.exe plugin: Connected to machine
+2022/08/12 11:27:26 ui: ==> hyperv-iso.vm: Connected to WinRM!
+2022/08/12 11:27:26 packer.exe plugin: Running the provision hook
+2022/08/12 11:27:26 [INFO] (telemetry) Starting provisioner powershell
+2022/08/12 11:27:26 ui: ==> hyperv-iso.vm: Provisioning with Powershell...
+2022/08/12 11:27:26 ui: ==> hyperv-iso.vm: Provisioning with powershell script: ./extra/scripts/phase-1.ps1
+2022/08/12 11:27:26 packer.exe plugin: Opening ./extra/scripts/phase-1.ps1 for reading
+2022/08/12 11:27:26 packer.exe plugin: Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1
+2022/08/12 11:27:26 packer.exe plugin: [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:27:26 [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:27:26 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1'
+2022/08/12 11:27:33 packer.exe plugin: Building elevated command wrapper for: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &'c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1'; exit $LastExitCode }"
+2022/08/12 11:27:33 packer.exe plugin: Command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &'c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63925-9622-3b27-9ed8-04d8fe1251c4.out 2>&1] converted to [powershell -executionpolicy bypass &#34;&amp; { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value &#39;SilentlyContinue&#39;};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &amp;&#39;c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1&#39;; exit $LastExitCode }&#34; &gt; %SYSTEMROOT%/Temp/packer-62f63925-9622-3b27-9ed8-04d8fe1251c4.out 2&gt;&amp;1] for use in XML string
+2022/08/12 11:27:33 packer.exe plugin: Uploading elevated shell wrapper for command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &'c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63925-9622-3b27-9ed8-04d8fe1251c4.out 2>&1] to [C:/Windows/Temp/packer-elevated-shell-62f63925-1fb0-54b6-a140-3263ca7fdeaf.ps1]
+2022/08/12 11:27:33 packer.exe plugin: [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:27:33 [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:27:33 packer.exe plugin: Uploading file to 'C:/Windows/Temp/packer-elevated-shell-62f63925-1fb0-54b6-a140-3263ca7fdeaf.ps1'
+2022/08/12 11:27:41 packer.exe plugin: [INFO] 6939 bytes written for 'uploadData'
+2022/08/12 11:27:41 [INFO] 6939 bytes written for 'uploadData'
+2022/08/12 11:27:41 packer.exe plugin: Uploading file to 'c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1'
+2022/08/12 11:27:48 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63925-1fb0-54b6-a140-3263ca7fdeaf.ps1"
+2022/08/12 11:27:56 ui:     hyperv-iso.vm: Phase 1 [START] - Start of Phase 1
+2022/08/12 11:27:57 ui:     hyperv-iso.vm: Phase 1 [INFO] - Windows Server
+2022/08/12 11:27:57 ui:     hyperv-iso.vm: 2019 found.
+2022/08/12 11:28:01 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteFwAdmin-RPCSS-In-TCP
+2022/08/12 11:28:01 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteFwAdmin-In-TCP
+2022/08/12 11:29:09 ui:     hyperv-iso.vm:
+2022/08/12 11:29:09 ui:     hyperv-iso.vm: Success Restart Needed Exit Code      Feature Result
+2022/08/12 11:29:09 ui:     hyperv-iso.vm: ------- -------------- ---------      --------------
+2022/08/12 11:29:09 ui:     hyperv-iso.vm: True    No             Success        {Hyper-V Module for Windows PowerShell, Hy...
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: True    No             Success        {Feature Administration Tools, SNMP Tools,...
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteDesktop-Shadow-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteDesktop-UserMode-In-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteDesktop-UserMode-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Session-Out-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Session-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Name-In-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-SMB-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Name-Out-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-RPCSS-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-ICMP4-ERQ-In
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-SpoolSvc-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Datagram-In-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-ICMP6-ERQ-In
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-NB_Datagram-Out-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-SMB-Out-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-ICMP4-ERQ-Out
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-ICMP6-ERQ-Out
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-LLMNR-In-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-LLMNR-Out-UDP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-NP-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-RPCSS-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: PerfLogsAlerts-DCOM-In-TCP-NoScope
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: PerfLogsAlerts-PLASrv-In-TCP-NoScope
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: PerfLogsAlerts-PLASrv-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: PerfLogsAlerts-DCOM-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: WMI-RPCSS-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: WMI-WINMGMT-Out-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: WMI-WINMGMT-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: WMI-ASYNC-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-NP-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: RemoteSvcAdmin-RPCSS-In-TCP
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Enable-NetFirewallRule DisplayName: FPS-ICMP4-ERQ-In
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set Property" on target "Item:
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server Property: fDenyTSConnections".
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set Property" on target "Item:
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp Property: UserAuthentication".
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set Property" on target "Item:
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced Property: HideFileExt".
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set Property" on target "Item: HKEY_LOCAL_MACHINE\SYSTEM\Setup\Status\SysprepStatus
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: Property: GeneralizationState".
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: Phase 1 [INFO] - workaround for PrivateKeys permission completed succesfully
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: Phase 1 [INFO] - installing Chocolatey, attempt 1 of 99
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: Bypass
+2022/08/12 11:29:53 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set-ExecutionPolicy" on target "Bypass".
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Getting latest version of the Chocolatey package for download.
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Not using proxy.
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/1.1.0.
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Downloading https://community.chocolatey.org/api/v2/package/chocolatey/1.1.0 to C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Not using proxy.
+2022/08/12 11:29:57 ui:     hyperv-iso.vm: Extracting C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall
+2022/08/12 11:30:04 ui:     hyperv-iso.vm: Installing Chocolatey on the local machine
+2022/08/12 11:30:06 ui:     hyperv-iso.vm: Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+2022/08/12 11:30:06 ui:     hyperv-iso.vm:   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+2022/08/12 11:30:06 ui:     hyperv-iso.vm: WARNING: It's very likely you will need to close and reopen your shell
+2022/08/12 11:30:06 ui:     hyperv-iso.vm:   before you can use choco.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: Restricting write permissions to Administrators
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: We are setting up the Chocolatey package repository.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:   (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:   and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: Creating Chocolatey folders if they do not already exist.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:
+2022/08/12 11:30:07 ui:     hyperv-iso.vm: WARNING: You can safely ignore errors related to missing log files when
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:   upgrading from a version of Chocolatey less than 0.9.9.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:   'Batch file could not be found' is also safe to ignore.
+2022/08/12 11:30:07 ui:     hyperv-iso.vm:   'The system cannot find the file specified' - also safe.
+2022/08/12 11:30:09 ui:     hyperv-iso.vm: chocolatey.nupkg file not installed in lib.
+2022/08/12 11:30:09 ui:     hyperv-iso.vm:  Attempting to locate it from bootstrapper.
+2022/08/12 11:30:09 ui:     hyperv-iso.vm: PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+2022/08/12 11:30:10 ui:     hyperv-iso.vm: WARNING: Not setting tab completion: Profile file does not exist at
+2022/08/12 11:30:10 ui:     hyperv-iso.vm: 'C:\Users\Administrator\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+2022/08/12 11:30:15 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63925-1fb0-54b6-a140-3263ca7fdeaf.ps1"' exited with code: 0
+2022/08/12 11:30:15 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Chocolatey (choco.exe) is now ready.
+2022/08/12 11:30:15 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:15 [INFO] 6331 bytes written for 'stdout'
+2022/08/12 11:30:15 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:15 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:15 packer.exe plugin: [INFO] 6331 bytes written for 'stdout'
+2022/08/12 11:30:15 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:15 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: You can call choco from anywhere, command line or powershell by typing choco.
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Run choco /? for a list of functions.
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: You may need to shut down and restart powershell and/or consoles
+2022/08/12 11:30:15 ui:     hyperv-iso.vm:  first prior to using choco.
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Ensuring Chocolatey commands are on the path
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Ensuring chocolatey.nupkg is in the lib folder
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Phase 1 [INFO] - installing Chocolatey exit code is: 0
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Phase 1 [INFO] - Chocolatey install succesful
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Set Property" on target "Item:
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem Property: LongPathsEnabled".
+2022/08/12 11:30:15 ui:     hyperv-iso.vm: Phase 1 [END] - End of Phase 1
+2022/08/12 11:30:15 packer.exe plugin: c:/Windows/Temp/script-62f6391e-3999-5f1f-1c94-05085f7216b9.ps1 returned with exit code 0
+2022/08/12 11:30:15 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:30:15 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:30:15 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f6391e-fe01-e007-db9c-7406644718ae.ps1'
+2022/08/12 11:30:22 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &'c:/Windows/Temp/packer-cleanup-62f6391e-fe01-e007-db9c-7406644718ae.ps1'; exit $LastExitCode }"
+2022/08/12 11:30:26 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f6391e-b83b-7539-b193-b8b5dd0ac7f0.ps1; &'c:/Windows/Temp/packer-cleanup-62f6391e-fe01-e007-db9c-7406644718ae.ps1'; exit $LastExitCode }"' exited with code: 0
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:26 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:26 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:26 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:26 [INFO] (telemetry) ending powershell
+2022/08/12 11:30:26 [INFO] (telemetry) Starting provisioner windows-restart
+2022/08/12 11:30:26 ui: ==> hyperv-iso.vm: Restarting Machine
+2022/08/12 11:30:26 packer.exe plugin: [INFO] starting remote command: shutdown /r /f /t 0 /c "packer restart"
+2022/08/12 11:30:26 packer.exe plugin: [INFO] command 'shutdown /r /f /t 0 /c "packer restart"' exited with code: 0
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:26 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:26 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:26 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:26 ui: ==> hyperv-iso.vm: Waiting for machine to restart...
+2022/08/12 11:30:26 packer.exe plugin: Check if machine is rebooting...
+2022/08/12 11:30:26 packer.exe plugin: [INFO] starting remote command: shutdown /r /f /t 60 /c "packer restart test"
+2022/08/12 11:30:26 packer.exe plugin: [INFO] command 'shutdown /r /f /t 60 /c "packer restart test"' exited with code: 1115
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 1115
+2022/08/12 11:30:26 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 [INFO] 40 bytes written for 'stderr'
+2022/08/12 11:30:26 [INFO] RPC client: Communicator ended with: 1115
+2022/08/12 11:30:26 [INFO] RPC endpoint: Communicator ended with: 1115
+2022/08/12 11:30:26 ui error: ==> hyperv-iso.vm: A system shutdown is in progress.(1115)
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] 40 bytes written for 'stderr'
+2022/08/12 11:30:26 packer.exe plugin: [INFO] RPC client: Communicator ended with: 1115
+2022/08/12 11:30:26 packer.exe plugin: Reboot already in progress, waiting...
+2022/08/12 11:30:36 packer.exe plugin: Check if machine is rebooting...
+2022/08/12 11:30:40 packer.exe plugin: [INFO] starting remote command: shutdown /r /f /t 60 /c "packer restart test"
+2022/08/12 11:30:40 packer.exe plugin: [INFO] command 'shutdown /r /f /t 60 /c "packer restart test"' exited with code: 0
+2022/08/12 11:30:40 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:40 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:40 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:40 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:40 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:40 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:40 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:40 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:40 packer.exe plugin: [INFO] starting remote command: shutdown /a
+2022/08/12 11:30:41 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:41 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:41 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:41 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:41 packer.exe plugin: [INFO] command 'shutdown /a' exited with code: 0
+2022/08/12 11:30:41 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:41 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:30:41 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:41 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:41 packer.exe plugin: Waiting for machine to reboot with timeout: 1h0m0s
+2022/08/12 11:30:41 packer.exe plugin: Waiting for machine to become available...
+2022/08/12 11:30:41 packer.exe plugin: Checking that communicator is connected with: 'powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGUAYwBoAG8AIAAoACIAewAwAH0AIAByAGUAcwB0AGEAcgB0AGUAZAAuACIAIAAtAGYAIABbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBEAG4AcwBdADoAOgBHAGUAdABIAG8AcwB0AE4AYQBtAGUAKAApACkA'
+2022/08/12 11:30:46 packer.exe plugin: [INFO] starting remote command: powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGUAYwBoAG8AIAAoACIAewAwAH0AIAByAGUAcwB0AGEAcgB0AGUAZAAuACIAIAAtAGYAIABbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBEAG4AcwBdADoAOgBHAGUAdABIAG8AcwB0AE4AYQBtAGUAKAApACkA
+2022/08/12 11:30:51 packer.exe plugin: [INFO] command 'powershell.exe -EncodedCommand JABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwA7AGUAYwBoAG8AIAAoACIAewAwAH0AIAByAGUAcwB0AGEAcgB0AGUAZAAuACIAIAAtAGYAIABbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBEAG4AcwBdADoAOgBHAGUAdABIAG8AcwB0AE4AYQBtAGUAKAApACkA' exited with code: 0
+2022/08/12 11:30:51 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:51 [INFO] 25 bytes written for 'stdout'
+2022/08/12 11:30:51 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:51 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:51 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:30:51 ui:     hyperv-iso.vm: windows-2019 restarted.
+2022/08/12 11:30:51 packer.exe plugin: [INFO] 25 bytes written for 'stdout'
+2022/08/12 11:30:51 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:30:51 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:30:51 ui: ==> hyperv-iso.vm: Machine successfully restarted, moving on
+2022/08/12 11:30:51 [INFO] (telemetry) ending windows-restart
+2022/08/12 11:30:51 [INFO] (telemetry) Starting provisioner powershell
+2022/08/12 11:30:51 ui: ==> hyperv-iso.vm: Provisioning with Powershell...
+2022/08/12 11:30:51 packer.exe plugin: Found command: Write-Host "Pausing before next stage";Start-Sleep -Seconds 240
+2022/08/12 11:30:51 ui: ==> hyperv-iso.vm: Provisioning with powershell script: C:\Users\chladmin\AppData\Local\Temp\2\powershell-provisioner1527908499
+2022/08/12 11:30:51 packer.exe plugin: Opening C:\Users\chladmin\AppData\Local\Temp\2\powershell-provisioner1527908499 for reading
+2022/08/12 11:30:52 packer.exe plugin: Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1
+2022/08/12 11:30:52 packer.exe plugin: [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:30:52 [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:30:52 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1'
+2022/08/12 11:30:59 packer.exe plugin: Building elevated command wrapper for: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &'c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1'; exit $LastExitCode }"
+2022/08/12 11:30:59 packer.exe plugin: Command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &'c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f639f3-0b3e-f7e2-b618-187b5a88d9d5.out 2>&1] converted to [powershell -executionpolicy bypass &#34;&amp; { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value &#39;SilentlyContinue&#39;};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &amp;&#39;c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1&#39;; exit $LastExitCode }&#34; &gt; %SYSTEMROOT%/Temp/packer-62f639f3-0b3e-f7e2-b618-187b5a88d9d5.out 2&gt;&amp;1] for use in XML string
+2022/08/12 11:30:59 packer.exe plugin: Uploading elevated shell wrapper for command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &'c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f639f3-0b3e-f7e2-b618-187b5a88d9d5.out 2>&1] to [C:/Windows/Temp/packer-elevated-shell-62f639f3-0071-7d8f-5d6c-a45a110d6610.ps1]
+2022/08/12 11:30:59 packer.exe plugin: [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:30:59 packer.exe plugin: Uploading file to 'C:/Windows/Temp/packer-elevated-shell-62f639f3-0071-7d8f-5d6c-a45a110d6610.ps1'
+2022/08/12 11:30:59 [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:31:07 packer.exe plugin: [INFO] 64 bytes written for 'uploadData'
+2022/08/12 11:31:07 [INFO] 64 bytes written for 'uploadData'
+2022/08/12 11:31:07 packer.exe plugin: Uploading file to 'c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1'
+2022/08/12 11:31:14 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f639f3-0071-7d8f-5d6c-a45a110d6610.ps1"
+2022/08/12 11:31:22 ui:     hyperv-iso.vm: Pausing before next stage
+2022/08/12 11:35:21 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f639f3-0071-7d8f-5d6c-a45a110d6610.ps1"' exited with code: 0
+2022/08/12 11:35:21 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:35:21 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:35:21 [INFO] 27 bytes written for 'stdout'
+2022/08/12 11:35:21 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:35:21 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:35:21 packer.exe plugin: [INFO] 27 bytes written for 'stdout'
+2022/08/12 11:35:21 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:35:21 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:35:21 packer.exe plugin: c:/Windows/Temp/script-62f639eb-943b-8b47-911b-0845b0dfa76c.ps1 returned with exit code 0
+2022/08/12 11:35:21 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:35:21 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:35:21 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f639eb-291d-a529-eb5e-ea9f96a3c880.ps1'
+2022/08/12 11:35:28 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &'c:/Windows/Temp/packer-cleanup-62f639eb-291d-a529-eb5e-ea9f96a3c880.ps1'; exit $LastExitCode }"
+2022/08/12 11:35:32 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f639eb-6452-0ec4-e36d-aff8c36bbfdc.ps1; &'c:/Windows/Temp/packer-cleanup-62f639eb-291d-a529-eb5e-ea9f96a3c880.ps1'; exit $LastExitCode }"' exited with code: 0
+2022/08/12 11:35:32 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:35:32 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:35:32 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:35:32 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:35:32 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:35:32 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:35:32 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:35:32 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:35:32 [INFO] (telemetry) ending powershell
+2022/08/12 11:35:32 [INFO] (telemetry) Starting provisioner powershell
+2022/08/12 11:35:32 ui: ==> hyperv-iso.vm: Provisioning with Powershell...
+2022/08/12 11:35:32 ui: ==> hyperv-iso.vm: Provisioning with powershell script: ./extra/scripts/phase-5c.vagrant.ps1
+2022/08/12 11:35:32 packer.exe plugin: Opening ./extra/scripts/phase-5c.vagrant.ps1 for reading
+2022/08/12 11:35:32 packer.exe plugin: Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1
+2022/08/12 11:35:32 packer.exe plugin: [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:35:32 [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:35:32 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1'
+2022/08/12 11:35:39 packer.exe plugin: Building elevated command wrapper for: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &'c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1'; exit $LastExitCode }"
+2022/08/12 11:35:39 packer.exe plugin: Command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &'c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63b0b-d7ff-a115-e2af-bc3ce3fe60f8.out 2>&1] converted to [powershell -executionpolicy bypass &#34;&amp; { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value &#39;SilentlyContinue&#39;};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &amp;&#39;c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1&#39;; exit $LastExitCode }&#34; &gt; %SYSTEMROOT%/Temp/packer-62f63b0b-d7ff-a115-e2af-bc3ce3fe60f8.out 2&gt;&amp;1] for use in XML string
+2022/08/12 11:35:39 packer.exe plugin: Uploading elevated shell wrapper for command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &'c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63b0b-d7ff-a115-e2af-bc3ce3fe60f8.out 2>&1] to [C:/Windows/Temp/packer-elevated-shell-62f63b0b-7e8d-4910-4bc3-3f023c5ceb58.ps1]
+2022/08/12 11:35:39 packer.exe plugin: [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:35:39 packer.exe plugin: Uploading file to 'C:/Windows/Temp/packer-elevated-shell-62f63b0b-7e8d-4910-4bc3-3f023c5ceb58.ps1'
+2022/08/12 11:35:39 [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:35:46 packer.exe plugin: [INFO] 890 bytes written for 'uploadData'
+2022/08/12 11:35:46 [INFO] 890 bytes written for 'uploadData'
+2022/08/12 11:35:46 packer.exe plugin: Uploading file to 'c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1'
+2022/08/12 11:35:53 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63b0b-7e8d-4910-4bc3-3f023c5ceb58.ps1"
+2022/08/12 11:36:02 ui:     hyperv-iso.vm: Phase 5c [START] - Vagrant
+2022/08/12 11:36:02 ui:     hyperv-iso.vm: The operation completed successfully.
+2022/08/12 11:36:02 ui:     hyperv-iso.vm:
+2022/08/12 11:36:02 ui:     hyperv-iso.vm:
+2022/08/12 11:36:02 ui:     hyperv-iso.vm: The task has completed successfully.
+2022/08/12 11:36:02 ui:     hyperv-iso.vm: See log %windir%\security\logs\scesrv.log for detail info.
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 5 percent (0/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 22 percent (3/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 44 percent (7/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 61 percent (10/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 77 percent (13/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: Completed 100 percent (18/18) 	Process Security Policy area
+2022/08/12 11:36:03 ui:     hyperv-iso.vm:
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: The task has completed successfully.
+2022/08/12 11:36:03 ui:     hyperv-iso.vm: See log %windir%\security\logs\scesrv.log for detail info.
+2022/08/12 11:36:03 ui:     hyperv-iso.vm:
+2022/08/12 11:36:03 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63b0b-7e8d-4910-4bc3-3f023c5ceb58.ps1"' exited with code: 0
+2022/08/12 11:36:03 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:36:03 [INFO] 826 bytes written for 'stdout'
+2022/08/12 11:36:03 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:36:03 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:36:03 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:36:03 packer.exe plugin: [INFO] 826 bytes written for 'stdout'
+2022/08/12 11:36:03 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:36:03 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:36:03 packer.exe plugin: c:/Windows/Temp/script-62f63b04-2685-24eb-be09-70ce1a6d37f3.ps1 returned with exit code 0
+2022/08/12 11:36:03 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:36:03 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:36:03 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f63b04-4c9a-c745-d215-c0ed03d0476b.ps1'
+2022/08/12 11:36:11 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &'c:/Windows/Temp/packer-cleanup-62f63b04-4c9a-c745-d215-c0ed03d0476b.ps1'; exit $LastExitCode }"
+2022/08/12 11:36:14 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b04-fe1a-6ba4-5baa-dcf760fbc980.ps1; &'c:/Windows/Temp/packer-cleanup-62f63b04-4c9a-c745-d215-c0ed03d0476b.ps1'; exit $LastExitCode }"' exited with code: 0
+2022/08/12 11:36:14 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:36:14 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:36:14 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:36:14 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:36:14 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:36:14 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:36:14 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:36:14 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:36:14 [INFO] (telemetry) ending powershell
+2022/08/12 11:36:14 [INFO] (telemetry) Starting provisioner powershell
+2022/08/12 11:36:14 ui: ==> hyperv-iso.vm: Provisioning with Powershell...
+2022/08/12 11:36:14 ui: ==> hyperv-iso.vm: Provisioning with powershell script: ./extra/scripts/phase-5d.windows-compress.ps1
+2022/08/12 11:36:14 packer.exe plugin: Opening ./extra/scripts/phase-5d.windows-compress.ps1 for reading
+2022/08/12 11:36:14 packer.exe plugin: Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1
+2022/08/12 11:36:14 packer.exe plugin: [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:36:14 [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:36:14 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1'
+2022/08/12 11:36:21 packer.exe plugin: Building elevated command wrapper for: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &'c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1'; exit $LastExitCode }"
+2022/08/12 11:36:21 packer.exe plugin: Command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &'c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63b35-a302-f9e6-4d4f-f07317b35028.out 2>&1] converted to [powershell -executionpolicy bypass &#34;&amp; { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value &#39;SilentlyContinue&#39;};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &amp;&#39;c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1&#39;; exit $LastExitCode }&#34; &gt; %SYSTEMROOT%/Temp/packer-62f63b35-a302-f9e6-4d4f-f07317b35028.out 2&gt;&amp;1] for use in XML string
+2022/08/12 11:36:21 packer.exe plugin: Uploading elevated shell wrapper for command [powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &'c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1'; exit $LastExitCode }" > %SYSTEMROOT%/Temp/packer-62f63b35-a302-f9e6-4d4f-f07317b35028.out 2>&1] to [C:/Windows/Temp/packer-elevated-shell-62f63b35-f1b0-9502-605f-705735d789ed.ps1]
+2022/08/12 11:36:21 packer.exe plugin: [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:36:21 packer.exe plugin: Uploading file to 'C:/Windows/Temp/packer-elevated-shell-62f63b35-f1b0-9502-605f-705735d789ed.ps1'
+2022/08/12 11:36:21 [INFO] 3512 bytes written for 'uploadData'
+2022/08/12 11:36:28 packer.exe plugin: [INFO] 2609 bytes written for 'uploadData'
+2022/08/12 11:36:28 [INFO] 2609 bytes written for 'uploadData'
+2022/08/12 11:36:28 packer.exe plugin: Uploading file to 'c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1'
+2022/08/12 11:36:36 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63b35-f1b0-9502-605f-705735d789ed.ps1"
+2022/08/12 11:36:44 ui:     hyperv-iso.vm: Phase-5d [START] - Cleaning/zeroing/compacting
+2022/08/12 11:36:44 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Stop-Service" on target "Windows Update (wuauserv)".
+2022/08/12 11:36:54 ui:     hyperv-iso.vm: VERBOSE: Performing the operation "Stop-Service" on target "Cryptographic Services (cryptsvc)".
+2022/08/12 11:37:05 ui:     hyperv-iso.vm: Phase-5d [INFO]: Cleaning prefetch..
+2022/08/12 11:37:05 ui:     hyperv-iso.vm: True
+2022/08/12 11:37:19 ui:     hyperv-iso.vm: Failed to clear log Microsoft-Windows-LiveId/Analytic.
+2022/08/12 11:37:19 ui:     hyperv-iso.vm: Access is denied.
+2022/08/12 11:37:19 ui:     hyperv-iso.vm: Failed to clear log Microsoft-Windows-LiveId/Operational.
+2022/08/12 11:37:19 ui:     hyperv-iso.vm: Access is denied.
+2022/08/12 11:37:40 ui:     hyperv-iso.vm:
+2022/08/12 11:37:40 ui:     hyperv-iso.vm: Deployment Image Servicing and Management tool
+2022/08/12 11:37:40 ui:     hyperv-iso.vm: Version: 10.0.17763.1697
+2022/08/12 11:37:40 ui:     hyperv-iso.vm:
+2022/08/12 11:37:41 ui:     hyperv-iso.vm: Image Version: 10.0.17763.2061
+2022/08/12 11:37:41 ui:     hyperv-iso.vm:
+2022/08/12 11:37:43 ui:     hyperv-iso.vm:
+2022/08/12 11:37:43 ui:     hyperv-iso.vm: [                           1.2%                           ]
+2022/08/12 11:37:44 ui:     hyperv-iso.vm:
+2022/08/12 11:37:44 ui:     hyperv-iso.vm: [=                          2.2%                           ]
+2022/08/12 11:37:46 ui:     hyperv-iso.vm:
+2022/08/12 11:37:46 ui:     hyperv-iso.vm: [=                          3.0%                           ]
+2022/08/12 11:37:47 ui:     hyperv-iso.vm:
+2022/08/12 11:37:47 ui:     hyperv-iso.vm: [==                         3.9%                           ]
+2022/08/12 11:37:48 ui:     hyperv-iso.vm:
+2022/08/12 11:37:48 ui:     hyperv-iso.vm: [==                         4.7%                           ]
+2022/08/12 11:37:50 ui:     hyperv-iso.vm:
+2022/08/12 11:37:50 ui:     hyperv-iso.vm: [===                        5.9%                           ]
+2022/08/12 11:37:51 ui:     hyperv-iso.vm:
+2022/08/12 11:37:51 ui:     hyperv-iso.vm: [===                        6.3%                           ]
+2022/08/12 11:37:53 ui:     hyperv-iso.vm:
+2022/08/12 11:37:53 ui:     hyperv-iso.vm: [====                       7.5%                           ]
+2022/08/12 11:37:54 ui:     hyperv-iso.vm:
+2022/08/12 11:37:54 ui:     hyperv-iso.vm: [====                       8.0%                           ]
+2022/08/12 11:37:55 ui:     hyperv-iso.vm:
+2022/08/12 11:37:55 ui:     hyperv-iso.vm: [====                       8.4%                           ]
+2022/08/12 11:37:58 ui:     hyperv-iso.vm:
+2022/08/12 11:37:58 ui:     hyperv-iso.vm: [=====                      9.4%                           ]
+2022/08/12 11:37:58 ui:     hyperv-iso.vm:
+2022/08/12 11:37:58 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:00 ui:     hyperv-iso.vm:
+2022/08/12 11:38:00 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:01 ui:     hyperv-iso.vm:
+2022/08/12 11:38:01 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:04 ui:     hyperv-iso.vm:
+2022/08/12 11:38:04 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:05 ui:     hyperv-iso.vm:
+2022/08/12 11:38:05 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:06 ui:     hyperv-iso.vm:
+2022/08/12 11:38:06 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:07 ui:     hyperv-iso.vm:
+2022/08/12 11:38:07 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:08 ui:     hyperv-iso.vm:
+2022/08/12 11:38:08 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:10 ui:     hyperv-iso.vm:
+2022/08/12 11:38:10 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:11 ui:     hyperv-iso.vm:
+2022/08/12 11:38:11 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:13 ui:     hyperv-iso.vm:
+2022/08/12 11:38:13 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:14 ui:     hyperv-iso.vm:
+2022/08/12 11:38:14 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:16 ui:     hyperv-iso.vm:
+2022/08/12 11:38:16 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:17 ui:     hyperv-iso.vm:
+2022/08/12 11:38:17 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:18 ui:     hyperv-iso.vm:
+2022/08/12 11:38:18 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:20 ui:     hyperv-iso.vm:
+2022/08/12 11:38:20 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:22 ui:     hyperv-iso.vm:
+2022/08/12 11:38:22 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:24 ui:     hyperv-iso.vm:
+2022/08/12 11:38:24 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:26 ui:     hyperv-iso.vm:
+2022/08/12 11:38:26 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:27 ui:     hyperv-iso.vm:
+2022/08/12 11:38:27 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:28 ui:     hyperv-iso.vm:
+2022/08/12 11:38:28 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:30 ui:     hyperv-iso.vm:
+2022/08/12 11:38:30 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:31 ui:     hyperv-iso.vm:
+2022/08/12 11:38:31 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:32 ui:     hyperv-iso.vm:
+2022/08/12 11:38:32 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:33 ui:     hyperv-iso.vm:
+2022/08/12 11:38:33 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:35 ui:     hyperv-iso.vm:
+2022/08/12 11:38:35 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:36 ui:     hyperv-iso.vm:
+2022/08/12 11:38:36 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:37 ui:     hyperv-iso.vm:
+2022/08/12 11:38:37 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:38 ui:     hyperv-iso.vm:
+2022/08/12 11:38:38 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:40 ui:     hyperv-iso.vm:
+2022/08/12 11:38:40 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:41 ui:     hyperv-iso.vm:
+2022/08/12 11:38:41 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:43 ui:     hyperv-iso.vm:
+2022/08/12 11:38:43 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:45 ui:     hyperv-iso.vm:
+2022/08/12 11:38:45 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:47 ui:     hyperv-iso.vm:
+2022/08/12 11:38:47 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:48 ui:     hyperv-iso.vm:
+2022/08/12 11:38:48 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:49 ui:     hyperv-iso.vm:
+2022/08/12 11:38:49 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:51 ui:     hyperv-iso.vm:
+2022/08/12 11:38:51 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:53 ui:     hyperv-iso.vm:
+2022/08/12 11:38:53 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:55 ui:     hyperv-iso.vm:
+2022/08/12 11:38:55 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:57 ui:     hyperv-iso.vm:
+2022/08/12 11:38:57 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:38:59 ui:     hyperv-iso.vm:
+2022/08/12 11:38:59 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:01 ui:     hyperv-iso.vm:
+2022/08/12 11:39:01 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:02 ui:     hyperv-iso.vm:
+2022/08/12 11:39:02 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:04 ui:     hyperv-iso.vm:
+2022/08/12 11:39:04 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:06 ui:     hyperv-iso.vm:
+2022/08/12 11:39:06 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:07 ui:     hyperv-iso.vm:
+2022/08/12 11:39:07 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:09 ui:     hyperv-iso.vm:
+2022/08/12 11:39:09 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:11 ui:     hyperv-iso.vm:
+2022/08/12 11:39:11 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:12 ui:     hyperv-iso.vm:
+2022/08/12 11:39:12 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:13 ui:     hyperv-iso.vm:
+2022/08/12 11:39:13 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:15 ui:     hyperv-iso.vm:
+2022/08/12 11:39:15 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:17 ui:     hyperv-iso.vm:
+2022/08/12 11:39:17 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:19 ui:     hyperv-iso.vm:
+2022/08/12 11:39:19 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:20 ui:     hyperv-iso.vm:
+2022/08/12 11:39:20 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:22 ui:     hyperv-iso.vm:
+2022/08/12 11:39:22 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:23 ui:     hyperv-iso.vm:
+2022/08/12 11:39:23 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:25 ui:     hyperv-iso.vm:
+2022/08/12 11:39:25 ui:     hyperv-iso.vm: [=====                      9.9%                           ]
+2022/08/12 11:39:27 ui:     hyperv-iso.vm:
+2022/08/12 11:39:27 ui:     hyperv-iso.vm: [===========================99.0%========================= ]
+2022/08/12 11:39:27 ui:     hyperv-iso.vm:
+2022/08/12 11:39:27 ui:     hyperv-iso.vm: [===========================99.0%========================= ]
+2022/08/12 11:39:27 ui:     hyperv-iso.vm:
+2022/08/12 11:39:27 ui:     hyperv-iso.vm: [===========================99.0%========================= ]
+2022/08/12 11:39:27 ui:     hyperv-iso.vm:
+2022/08/12 11:39:27 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:28 ui:     hyperv-iso.vm:
+2022/08/12 11:39:28 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:29 ui:     hyperv-iso.vm:
+2022/08/12 11:39:29 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:31 ui:     hyperv-iso.vm:
+2022/08/12 11:39:31 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:32 ui:     hyperv-iso.vm:
+2022/08/12 11:39:32 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:33 ui:     hyperv-iso.vm:
+2022/08/12 11:39:33 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:34 ui:     hyperv-iso.vm:
+2022/08/12 11:39:34 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:36 ui:     hyperv-iso.vm:
+2022/08/12 11:39:36 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:38 ui:     hyperv-iso.vm:
+2022/08/12 11:39:38 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:40 ui:     hyperv-iso.vm:
+2022/08/12 11:39:40 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:42 ui:     hyperv-iso.vm:
+2022/08/12 11:39:42 ui:     hyperv-iso.vm: [===========                20.0%                          ]
+2022/08/12 11:39:43 ui:     hyperv-iso.vm:
+2022/08/12 11:39:43 ui:     hyperv-iso.vm: [=============              23.2%                          ]
+2022/08/12 11:39:44 ui:     hyperv-iso.vm:
+2022/08/12 11:39:44 ui:     hyperv-iso.vm: [=============              23.2%                          ]
+2022/08/12 11:39:46 ui:     hyperv-iso.vm:
+2022/08/12 11:39:46 ui:     hyperv-iso.vm: [=============              23.2%                          ]
+2022/08/12 11:39:47 ui:     hyperv-iso.vm:
+2022/08/12 11:39:47 ui:     hyperv-iso.vm: [=============              23.2%                          ]
+2022/08/12 11:39:48 ui:     hyperv-iso.vm:
+2022/08/12 11:39:48 ui:     hyperv-iso.vm: [====================       36.0%                          ]
+2022/08/12 11:39:49 ui:     hyperv-iso.vm:
+2022/08/12 11:39:49 ui:     hyperv-iso.vm: [===========================68.0%=======                   ]
+2022/08/12 11:39:50 ui:     hyperv-iso.vm:
+2022/08/12 11:39:50 ui:     hyperv-iso.vm: [==========================100.0%==========================]
+2022/08/12 11:39:52 ui:     hyperv-iso.vm:
+2022/08/12 11:39:52 ui:     hyperv-iso.vm: [==========================100.0%==========================]
+2022/08/12 11:39:55 ui:     hyperv-iso.vm: The operation completed successfully.
+2022/08/12 11:39:55 ui:     hyperv-iso.vm:
+2022/08/12 11:39:55 ui:     hyperv-iso.vm: Deployment Image Servicing and Management tool
+2022/08/12 11:39:55 ui:     hyperv-iso.vm: Version: 10.0.17763.1697
+2022/08/12 11:39:55 ui:     hyperv-iso.vm:
+2022/08/12 11:39:55 ui:     hyperv-iso.vm: Image Version: 10.0.17763.2061
+2022/08/12 11:39:55 ui:     hyperv-iso.vm:
+2022/08/12 11:39:58 ui:     hyperv-iso.vm: Service Pack Cleanup cannot proceed: No Service Pack backup files were found.
+2022/08/12 11:39:58 ui:     hyperv-iso.vm: The operation completed successfully.
+2022/08/12 11:39:58 ui:     hyperv-iso.vm: Phase-5d [INFO]: Cleaning TEMP
+2022/08/12 11:39:58 ui:     hyperv-iso.vm: Phase-5d [INFO] Defragging..
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Invoking defragmentation on Windows (C:)...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  0% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  47% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  48% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  50% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  57% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  65% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  70% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  73% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  77% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  80% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  84% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  90% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  95% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  99% complete...
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Analysis:  100% complete.
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: Pre-Optimization Report:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Volume Information:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Volume size                 = 77.55 GB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Cluster size                = 4 KB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Used space                  = 10.50 GB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Free space                  = 67.05 GB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Fragmentation:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Total fragmented space      = 4%
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Average fragments per file  = 1.02
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Movable files and folders   = 76911
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Unmovable files and folders = 5
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Files:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Fragmented files            = 245
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Total file fragments        = 1686
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Folders:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Total folders               = 6124
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Fragmented folders          = 287
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Total folder fragments      = 1121
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Free space:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Free space count            = 568
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Average free space size     = 120.74 MB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Largest free space size     = 66.91 GB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm:  Master File Table (MFT):
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   MFT size                    = 125.50 MB
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   MFT record count            = 128511
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   MFT usage                   = 100%
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:   Total MFT fragments         = 1
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE:  Note: File fragments larger than 64MB are not included in the fragmentation statistics.
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Performing pass 1:
+2022/08/12 11:40:06 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  0% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  1% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  2% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  3% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  4% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  9% complete...
+2022/08/12 11:40:08 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  10% complete...
+2022/08/12 11:40:10 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  11% complete...
+2022/08/12 11:40:10 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  12% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  13% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  15% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  18% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  23% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  28% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  36% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  37% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  42% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  43% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  50% complete...
+2022/08/12 11:40:13 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  51% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  52% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  53% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  54% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  67% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  70% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  71% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  72% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  73% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  74% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  75% complete...
+2022/08/12 11:40:16 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  76% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  77% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  78% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  84% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  86% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  87% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  88% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  90% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  100% complete...
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  100% complete.
+2022/08/12 11:40:18 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  0% complete...
+2022/08/12 11:40:21 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  1% complete...
+2022/08/12 11:40:21 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  2% complete...
+2022/08/12 11:40:21 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  3% complete...
+2022/08/12 11:40:21 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  4% complete...
+2022/08/12 11:40:21 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  6% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  7% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  10% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  11% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  15% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  16% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  22% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  23% complete...
+2022/08/12 11:40:23 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  31% complete...
+2022/08/12 11:40:26 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  32% complete...
+2022/08/12 11:40:26 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  33% complete...
+2022/08/12 11:40:26 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  50% complete...
+2022/08/12 11:40:26 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  51% complete...
+2022/08/12 11:40:28 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  52% complete...
+2022/08/12 11:40:28 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  53% complete...
+2022/08/12 11:40:28 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  54% complete...
+2022/08/12 11:40:28 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  55% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  56% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  57% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  58% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  100% complete.
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Performing pass 2:
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  0% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  10% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  56% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  66% complete...
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  100% complete.
+2022/08/12 11:40:31 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  0% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  1% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  31% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  32% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Free Space Consolidation:  100% complete.
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Performing pass 3:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  0% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Defragmentation:  100% complete.
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Performing pass 1:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Retrim:  13% complete...
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE: Retrim:  100% complete.
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: Post Defragmentation Report:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Volume Information:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Volume size                 = 77.55 GB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Cluster size                = 4 KB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Used space                  = 10.50 GB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Free space                  = 67.05 GB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Fragmentation:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Total fragmented space      = 0%
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Average fragments per file  = 1.00
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Movable files and folders   = 76907
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Unmovable files and folders = 5
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Files:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Fragmented files            = 0
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Total file fragments        = 0
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Folders:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Total folders               = 6124
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Fragmented folders          = 0
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Total folder fragments      = 0
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Free space:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Free space count            = 7
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Average free space size     = 19.13 GB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Largest free space size     = 66.88 GB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:
+2022/08/12 11:40:33 ui:     hyperv-iso.vm:  Master File Table (MFT):
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   MFT size                    = 125.50 MB
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   MFT record count            = 128511
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   MFT usage                   = 100%
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:   Total MFT fragments         = 1
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: VERBOSE:  Note: File fragments larger than 64MB are not included in the fragmentation statistics.
+2022/08/12 11:40:33 ui:     hyperv-iso.vm: Phase-5d [INFO] Zeroing out empty space...
+2022/08/12 11:41:43 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass -file "C:/Windows/Temp/packer-elevated-shell-62f63b35-f1b0-9502-605f-705735d789ed.ps1"' exited with code: 0
+2022/08/12 11:41:43 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:41:43 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:41:43 [INFO] 13865 bytes written for 'stdout'
+2022/08/12 11:41:43 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:41:43 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:41:43 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:41:43 packer.exe plugin: [INFO] 13865 bytes written for 'stdout'
+2022/08/12 11:41:43 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:41:43 ui:     hyperv-iso.vm: Phase 5d [INFO] Zeroing took: 69.8536245 seconds
+2022/08/12 11:41:43 ui:     hyperv-iso.vm: Phase-5d [END]
+2022/08/12 11:41:43 packer.exe plugin: c:/Windows/Temp/script-62f63b2e-7d01-09d7-75ac-4ae9f8acbb45.ps1 returned with exit code 0
+2022/08/12 11:41:43 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:41:43 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:41:43 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f63b2e-1b17-ab4a-09fa-71f7a856e0f6.ps1'
+2022/08/12 11:41:51 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &'c:/Windows/Temp/packer-cleanup-62f63b2e-1b17-ab4a-09fa-71f7a856e0f6.ps1'; exit $LastExitCode }"
+2022/08/12 11:41:54 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63b2e-c7c3-8373-f651-28517a1cfca8.ps1; &'c:/Windows/Temp/packer-cleanup-62f63b2e-1b17-ab4a-09fa-71f7a856e0f6.ps1'; exit $LastExitCode }"' exited with code: 0
+2022/08/12 11:41:54 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:41:54 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:41:54 [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:41:54 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:41:54 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:41:54 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:41:54 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2022/08/12 11:41:54 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:41:54 [INFO] (telemetry) ending powershell
+2022/08/12 11:41:54 [INFO] (telemetry) Starting provisioner file
+2022/08/12 11:41:54 ui: ==> hyperv-iso.vm: Uploading ./extra/files/gen2-2019/std/unattend_vagrant.xml => C:\Windows\System32\Sysprep\unattend.xml
+2022/08/12 11:41:54 packer.exe plugin: Uploading file to 'C:\Windows\System32\Sysprep\unattend.xml'
+2022/08/12 11:41:54 packer.exe plugin: [INFO] 3457 bytes written for 'uploadData'
+2022/08/12 11:41:54 [INFO] 3457 bytes written for 'uploadData'
+2022/08/12 11:41:59 packer.exe plugin: closing
+2022/08/12 11:41:59 closing
+2022/08/12 11:41:59 packer.exe plugin: closing
+2022/08/12 11:41:59 [INFO] (telemetry) ending file
+2022/08/12 11:41:59 [INFO] (telemetry) Starting provisioner powershell
+2022/08/12 11:41:59 ui: ==> hyperv-iso.vm: Provisioning with Powershell...
+2022/08/12 11:41:59 packer.exe plugin: Found command: Write-Output Phase-5-Deprovisioning
+2022/08/12 11:41:59 packer.exe plugin: Found command: if (!(Test-Path -Path $Env:SystemRoot\system32\Sysprep\unattend.xml)){ Write-Output 'No file';exit (10)}
+2022/08/12 11:41:59 packer.exe plugin: Found command: & $Env:SystemRoot\System32\Sysprep\Sysprep.exe /oobe /generalize /shutdown /quiet /unattend:C:\Windows\system32\sysprep\unattend.xml
+2022/08/12 11:41:59 ui: ==> hyperv-iso.vm: Provisioning with powershell script: C:\Users\chladmin\AppData\Local\Temp\2\powershell-provisioner2461011372
+2022/08/12 11:41:59 packer.exe plugin: Opening C:\Users\chladmin\AppData\Local\Temp\2\powershell-provisioner2461011372 for reading
+2022/08/12 11:41:59 packer.exe plugin: Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-62f63c87-5c32-9bc2-7c8b-e078d5e83ecf.ps1
+2022/08/12 11:41:59 packer.exe plugin: [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:41:59 [INFO] 163 bytes written for 'uploadData'
+2022/08/12 11:41:59 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-62f63c87-5c32-9bc2-7c8b-e078d5e83ecf.ps1'
+2022/08/12 11:42:05 packer.exe plugin: [INFO] 274 bytes written for 'uploadData'
+2022/08/12 11:42:05 [INFO] 274 bytes written for 'uploadData'
+2022/08/12 11:42:05 packer.exe plugin: Uploading file to 'c:/Windows/Temp/script-62f63c87-1b7a-dbce-c302-c96752a9292c.ps1'
+2022/08/12 11:42:10 packer.exe plugin: [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63c87-5c32-9bc2-7c8b-e078d5e83ecf.ps1; &'c:/Windows/Temp/script-62f63c87-1b7a-dbce-c302-c96752a9292c.ps1'; exit $LastExitCode }"
+2022/08/12 11:42:13 ui:     hyperv-iso.vm: Phase-5-Deprovisioning
+2022/08/12 11:48:13 packer.exe plugin: [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-62f63c87-5c32-9bc2-7c8b-e078d5e83ecf.ps1; &'c:/Windows/Temp/script-62f63c87-1b7a-dbce-c302-c96752a9292c.ps1'; exit $LastExitCode }"' exited with code: 0
+2022/08/12 11:48:13 packer.exe plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:48:13 [INFO] 24 bytes written for 'stdout'
+2022/08/12 11:48:13 [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:48:13 [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:48:13 [INFO] RPC endpoint: Communicator ended with: 0
+2022/08/12 11:48:13 packer.exe plugin: [INFO] 24 bytes written for 'stdout'
+2022/08/12 11:48:13 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2022/08/12 11:48:13 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2022/08/12 11:48:13 packer.exe plugin: c:/Windows/Temp/script-62f63c87-1b7a-dbce-c302-c96752a9292c.ps1 returned with exit code 0
+2022/08/12 11:48:13 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:48:13 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:48:13 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1'
+2022/08/12 11:48:34 packer.exe plugin: failed to upload the remote cleanup script: "clean up script \"c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1\" failed to upload: Error uploading file to $env:TEMP\\winrmcp-3eade4f6-47ea-451a-51b7-768b85c6e1ac.tmp: Couldn't create shell: unknown error Post \"http://10.0.2.24:5985/wsman\": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+2022/08/12 11:48:34 packer.exe plugin: Retryable error: clean up script "c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1" failed to upload: Error uploading file to $env:TEMP\winrmcp-3eade4f6-47ea-451a-51b7-768b85c6e1ac.tmp: Couldn't create shell: unknown error Post "http://10.0.2.24:5985/wsman": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022/08/12 11:48:44 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:48:44 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1'
+2022/08/12 11:48:44 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:49:05 packer.exe plugin: failed to upload the remote cleanup script: "clean up script \"c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1\" failed to upload: Error uploading file to $env:TEMP\\winrmcp-7cc36d62-ef31-4825-5a6e-07e3b91c7b66.tmp: Couldn't create shell: unknown error Post \"http://10.0.2.24:5985/wsman\": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+2022/08/12 11:49:05 packer.exe plugin: Retryable error: clean up script "c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1" failed to upload: Error uploading file to $env:TEMP\winrmcp-7cc36d62-ef31-4825-5a6e-07e3b91c7b66.tmp: Couldn't create shell: unknown error Post "http://10.0.2.24:5985/wsman": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022/08/12 11:49:15 packer.exe plugin: [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:49:15 [INFO] 511 bytes written for 'uploadData'
+2022/08/12 11:49:15 packer.exe plugin: Uploading file to 'c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1'
+2022/08/12 11:49:36 packer.exe plugin: failed to upload the remote cleanup script: "clean up script \"c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1\" failed to upload: Error uploading file to $env:TEMP\\winrmcp-44783c11-2834-4f07-5c0c-2d2eb72ec97d.tmp: Couldn't create shell: unknown error Post \"http://10.0.2.24:5985/wsman\": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+2022/08/12 11:49:36 packer.exe plugin: Retryable error: clean up script "c:/Windows/Temp/packer-cleanup-62f63c87-d729-46a9-55c0-545cf14ed603.ps1" failed to upload: Error uploading file to $env:TEMP\winrmcp-44783c11-2834-4f07-5c0c-2d2eb72ec97d.tmp: Couldn't create shell: unknown error Post "http://10.0.2.24:5985/wsman": dial tcp 10.0.2.24:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2022/08/12 11:49:36 packer.exe plugin: remote cleanup script failed to upload; skipping the removal of temporary files: c:/Windows/Temp/packer-ps-env-vars-62f63c87-5c32-9bc2-7c8b-e078d5e83ecf.ps1,c:/Windows/Temp/script-62f63c87-1b7a-dbce-c302-c96752a9292c.ps1;
+2022/08/12 11:49:36 [INFO] (telemetry) ending powershell
+2022/08/12 11:49:36 ui: ==> hyperv-iso.vm: Forcibly halting virtual machine...
+2022/08/12 11:49:36 packer.exe plugin: Waiting max 30m0s for shutdown to complete
+2022/08/12 11:49:38 packer.exe plugin: VM shut down.
+2022/08/12 11:49:38 ui: ==> hyperv-iso.vm: Waiting for vm to be powered down...
+2022/08/12 11:49:39 ui: ==> hyperv-iso.vm: Unmount/delete secondary dvd drives...
+2022/08/12 11:49:39 ui: ==> hyperv-iso.vm: Delete secondary dvd drives controller 0 location 2 ...
+2022/08/12 11:49:40 ui: ==> hyperv-iso.vm: Unmount/delete Integration Services dvd drive...
+2022/08/12 11:49:40 ui: ==> hyperv-iso.vm: Unmount/delete os dvd drive...
+2022/08/12 11:49:40 ui: ==> hyperv-iso.vm: Delete os dvd drives controller 0 location 1 ...
+2022/08/12 11:49:42 ui: ==> hyperv-iso.vm: Compacting disks...
+2022/08/12 11:49:58 ui:     hyperv-iso.vm: Compacting disk: packer-windows2019-g2.vhdx
+    hyperv-iso.vm: Disk size reduced by: .6%
+2022/08/12 11:49:58 ui: ==> hyperv-iso.vm: Exporting virtual machine...
+2022/08/12 11:51:55 ui: ==> hyperv-iso.vm: Collating build artifacts...
+2022/08/12 11:51:56 ui: ==> hyperv-iso.vm: Disconnecting from vmconnect...
+2022/08/12 11:51:57 ui: ==> hyperv-iso.vm: Unregistering and deleting virtual machine...
+2022/08/12 11:51:57 ui: ==> hyperv-iso.vm: Deleting build directory...
+2022/08/12 11:51:57 [INFO] (telemetry) ending hyperv-iso.vm
+2022/08/12 11:51:57 ui: ==> hyperv-iso.vm: Running post-processor:  (type vagrant)
+2022/08/12 11:51:57 [INFO] (telemetry) Starting post-processor vagrant
+2022/08/12 11:51:57 ui: ==> hyperv-iso.vm (vagrant): Creating a dummy Vagrant box to ensure the host system can create one correctly
+2022/08/12 11:51:57 packer.exe plugin: Turning dir into box: C:\Users\chladmin\AppData\Local\Temp\2\packer1707638296 => C:\Users\chladmin\AppData\Local\Temp\2\box-4124902269.box
+2022/08/12 11:51:57 packer.exe plugin: Compressing with gzip compression level: -1
+2022/08/12 11:51:57 packer.exe plugin: Skipping directory 'C:\Users\chladmin\AppData\Local\Temp\2\packer1707638296' for box 'C:\Users\chladmin\AppData\Local\Temp\2\box-4124902269.box'
+2022/08/12 11:51:57 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer1707638296\metadata.json' to 'C:\Users\chladmin\AppData\Local\Temp\2\box-4124902269.box'
+2022/08/12 11:51:57 ui: ==> hyperv-iso.vm (vagrant): Creating Vagrant box for 'hyperv' provider
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copying: output-windows-2019-g2\Virtual Hard Disks\packer-windows2019-g2.vhdx
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copied output-windows-2019-g2\Virtual Hard Disks\packer-windows2019-g2.vhdx to C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Hard Disks\packer-windows2019-g2.vhdx
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copying: output-windows-2019-g2\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.VMRS
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copied output-windows-2019-g2\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.VMRS to C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.VMRS
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copying: output-windows-2019-g2\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.vmcx
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copied output-windows-2019-g2\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.vmcx to C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.vmcx
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copying: output-windows-2019-g2\Virtual Machines\box.xml
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Copied output-windows-2019-g2\Virtual Machines\box.xml to C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\box.xml
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Using custom Vagrantfile: ./vagrant/hv_win2019_std.template
+2022/08/12 11:51:57 packer.exe plugin: Turning dir into box: C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719 => ./vbox/packer-windows-2019-std-g2.box
+2022/08/12 11:51:57 packer.exe plugin: Compressing with gzip compression level: -1
+2022/08/12 11:51:57 packer.exe plugin: Skipping directory 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719' for box './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:51:57 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Vagrantfile' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Compressing: Vagrantfile
+2022/08/12 11:51:57 packer.exe plugin: Skipping directory 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Hard Disks' for box './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:51:57 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Hard Disks\packer-windows2019-g2.vhdx' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:51:57 ui:     hyperv-iso.vm (vagrant): Compressing: Virtual Hard Disks\packer-windows2019-g2.vhdx
+2022/08/12 11:53:31 ui:     hyperv-iso.vm (vagrant): Compressing: Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.VMRS
+2022/08/12 11:53:31 packer.exe plugin: Skipping directory 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines' for box './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:53:31 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.VMRS' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:53:31 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.vmcx' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:53:31 ui:     hyperv-iso.vm (vagrant): Compressing: Virtual Machines\46EFA568-ECF6-41B5-B743-90228872852C.vmcx
+2022/08/12 11:53:31 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\Virtual Machines\box.xml' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:53:31 ui:     hyperv-iso.vm (vagrant): Compressing: Virtual Machines\box.xml
+2022/08/12 11:53:31 packer.exe plugin: Box add: 'C:\Users\chladmin\AppData\Local\Temp\2\packer4172339719\metadata.json' to './vbox/packer-windows-2019-std-g2.box'
+2022/08/12 11:53:31 ui:     hyperv-iso.vm (vagrant): Compressing: metadata.json
+2022/08/12 11:53:31 [INFO] (telemetry) ending vagrant
+2022/08/12 11:53:31 Flagging to keep original artifact from post-processor 'vagrant'
+2022/08/12 11:53:31 ui: Build 'hyperv-iso.vm' finished after 35 minutes 48 seconds.
+2022/08/12 11:53:31 ui: 
+==> Wait completed after 35 minutes 48 seconds
+2022/08/12 11:53:31 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact-count []string{"2"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "builder-id", "MSOpenTech.hyperv"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "id", "VM"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "string", "VM files in directory: output-windows-2019-g2"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "files-count", "4"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "file", "0", "output-windows-2019-g2\\Virtual Hard Disks\\packer-windows2019-g2.vhdx"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "file", "1", "output-windows-2019-g2\\Virtual Machines\\46EFA568-ECF6-41B5-B743-90228872852C.VMRS"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "file", "2", "output-windows-2019-g2\\Virtual Machines\\46EFA568-ECF6-41B5-B743-90228872852C.vmcx"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "file", "3", "output-windows-2019-g2\\Virtual Machines\\box.xml"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"0", "end"}
+2022/08/12 11:53:31 ui: --> hyperv-iso.vm: VM files in directory: output-windows-2019-g2
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "builder-id", "mitchellh.post-processor.vagrant"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "id", "hyperv"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "string", "'hyperv' provider box: ./vbox/packer-windows-2019-std-g2.box"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "files-count", "1"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "file", "0", "./vbox/packer-windows-2019-std-g2.box"}
+2022/08/12 11:53:31 machine readable: hyperv-iso.vm,artifact []string{"1", "end"}
+2022/08/12 11:53:31 ui: --> hyperv-iso.vm: 'hyperv' provider box: ./vbox/packer-windows-2019-std-g2.box
+2022/08/12 11:53:31 [INFO] (telemetry) Finalizing.
+2022/08/12 11:53:32 waiting for all plugin processes to complete...
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited
+2022/08/12 11:53:32 C:\Users\chladmin\AppData\Local\Microsoft\WindowsApps\packer.exe: plugin process exited

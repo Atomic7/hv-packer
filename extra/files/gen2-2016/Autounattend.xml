@@ -70,7 +70,7 @@
                 <OSImage>
                     <InstallFrom>
                         <MetaData wcm:action="add">
-                            <Key>/IMAGE/NAME </Key>
+                            <Key>/IMAGE/NAME</Key>
                             <Value>Windows Server 2016 SERVERSTANDARD</Value>
                         </MetaData>
                     </InstallFrom>
@@ -83,6 +83,7 @@
             <UserData>
                 <ProductKey>
                   <!--  <Key>6XBNX-4JQGW-QX6QG-74P76-72V67</Key> -->
+                  <Key>CNG9K-C799W-YBVF6-MV3CG-9KYMF</Key>
                     <WillShowUI>OnError</WillShowUI>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>

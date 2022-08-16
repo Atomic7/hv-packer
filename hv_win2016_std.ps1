@@ -7,13 +7,15 @@ $startDTM = (Get-Date)
 $template_file="./templates/hv_win2016_g2.pkr.hcl"
 $var_file="./variables/variables_win2016_std.pkvars.hcl"
 $machine="Windows Server 2016 Standard Gen-2"
-$packer_log=0
+$packer_log=1
+$packer_log_path="./logs/hv_win2016_std_g2.log"
 
 if ((Test-Path -Path "$template_file") -and (Test-Path -Path "$var_file")) {
   Write-Output "Template and var file found"
   Write-Output "Building: $machine"
   try {
     $env:PACKER_LOG=$packer_log
+    $env:PACKER_LOG_PATH=$packer_log_path
     packer validate -var-file="$var_file" "$template_file"
   }
   catch {
